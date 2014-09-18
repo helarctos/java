@@ -1,0 +1,27 @@
+Ravensara Travillian
+Lab 1: Programming Background
+
+1. A reserved word, or keyword, is a word that a computer language keeps for its own use, and so that word is not available to us for use as a variable. The language gives a specific definition to that keyword, and uses it for particular purposes, so we can't use it for a variable, as that would introduce ambiguity and confusion.
+
+2. A local variable is a variable that exists and is used only within a particular function or other module. Once control returns to the main process, then the local variable is no longer accessible.
+
+3. A programmer would use the while statement to iterate a loop for as long as a particular condition remains the same (e.g., status = "active", NOT EOF, number >= 0, or something similar). So, rather than the program going through the loop a set number of times, the loop is repeated as long as the condition remains the same, and is tested again each time to see whether it has changed or not. Once the condition is detected as having changed, the loop is not repeated anymore.
+
+4. A function is a module that accepts input from the main process, performs some operation(s) on it, and returns the resulting output to the main process. Calling a function means to use that function's name somewhere else in the process to send input to that function, and to receive the subsequent output from it.
+
+5. An assigment statement puts a value into memory, and makes a variable name point to that memory location. The effect is to set the variable equal to that value for use in the program.
+
+6. Character and integer.
+
+7. For any given value of x, this process decides on and displays the "absolute value" of x, the common name of this operation. If x is positive or zero, then the absolute value of x is the same as x itself. If x is negative, then the absolute value of x equals -x.
+
+8. 2
+
+9. f(2) = 3*2 - 1 = 5, so f(f(2)) = f(5) = 3*5 - 1 = 14
+
+10. Python 3.4.1
+
+number = 1
+while (number <= 10):
+    print(number)
+    number = number + 1
